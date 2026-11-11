@@ -217,8 +217,7 @@ body {
 }
 
 .video-thumb {
-    width: 250px;
-    height: 150px;
+
     overflow: hidden;
     border-radius: 14px;
     position: relative;
@@ -293,4 +292,19 @@ body {
     align-items: center;
     justify-content: space-between;
     width: 66px;
+}
+
+
+.recommended-slide {
+    min-width: 540px;
+}
+
+.recommended-slide .video-card {
+    width: 540px;
+}
+
+.recommended-thumbnail {
+    width: 540px;
+    height: 250px;
+    object-fit: cover;
 }
